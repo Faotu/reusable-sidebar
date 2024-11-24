@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to an external CSS file (optional) -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="fupre.png" alt="logo" />
+          </span>
+          <div class="text header-text">
+            <span class="name">Edoge_Emmanuel</span>
+            <span class="profession">Predictive System</span>
+          </div>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <i class="bx bx-search icon"></i>
+            <input type="search" placeholder="Search...." />
+          </li>
+
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-home-alt-2 icon"></i>
+                <span class="text">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="Reports">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="text">Reports</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="upload ">
+                <i class="bx bx-cloud-upload icon"></i>
+                <span class="text">Upload Data</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="Result">
+                <i class="bx bx-info-circle icon"></i>
+                <span class="text">Result</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="Counts">
+                <i class="bx bx-pie-chart-alt-2 icon"></i>
+                <span class="text">Analytics</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="settings">
+                <i class="bx bx-cog icon"></i>
+                <span class="text">Settings</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="button-content">
+          <li class="">
+            <a href="Signout">
+              <i class="bx bx-log-out icon"></i>
+              <span class="text">Logout</span>
+            </a>
+          </li>
+          <li class="mode">
+            <div class="moon-sun">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark Mode</span>
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
+</html>
