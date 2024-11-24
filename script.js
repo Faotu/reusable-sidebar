@@ -12,3 +12,8 @@ toggle.addEventListener("click", () => {
 modeSwitch.addEventListener("click", () => {
   body.classList.toggle("dark");
 });
+
+function togglePage() {
+  // Replace the URL with the destination page
+  window.location.href = "predict";
+}
